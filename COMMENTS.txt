@@ -1,0 +1,20 @@
+===========================================================================
+============  Slightly Edited Forks of the http://www.spip.net  ===========
+===========================================================================
+
+For the time being, the title says it all. :-)
+
+The main difference is the presence of the Estonian language files
+
+    ./forked_from_v_3_0/ecrire/lang/ecrire_et.php
+    ./forked_from_v_3_0/ecrire/lang/public_et.php
+    ./forked_from_v_3_0/ecrire/lang/spip_et.php
+
+that has been translated from the English versions:
+
+    ./forked_from_v_3_0/ecrire/lang/ecrire_en.php
+    ./forked_from_v_3_0/ecrire/lang/public_en.php
+    ./forked_from_v_3_0/ecrire/lang/spip_en.php
+
+
+===========================================================================
