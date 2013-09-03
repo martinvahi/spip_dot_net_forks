@@ -8,7 +8,7 @@
 /* Habillage des elements du contenu
 /* ------------------------------------------ */
 
-.arbo { clear: both; font-size: .9em; color: #DDC; }
+.arbo { clear: both; font-size: .9em; color: #DDDDCC; }
 .arbo * { font-weight: normal; }
 
 .cartouche { margin-bottom: 1.5em; }
@@ -61,7 +61,7 @@ width: 100%;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
-background-color: #EED;
+background-color: #EEEEDD;
 border: 4px solid #EED;
 }
 .content input.text { width: 50%; }
@@ -99,10 +99,10 @@ ul.choix_mots li label { display: inline; font-weight: normal; }
 .comment-meta { margin: 0; font-weight: bold; }
 .comment-meta small { font-size: 100%; }
 .comment-meta abbr { border: 0; }
-.comment-meta a { color: #222; }
+.comment-meta a { color: #222222; }
 .comment-meta a:focus,
 .comment-meta a:hover,
-.comment-meta a:active { color: #fff; }
+.comment-meta a:active { color: #ffffff; }
 .comment-content .hyperlien { padding: 0; background: transparent; font-weight: normal; }
 
 /* Formulaire de forum */
@@ -136,7 +136,7 @@ ul.choix_mots li label { display: inline; font-weight: normal; }
 .pagination a,
 .pagination .on  { padding: .2em .5em; margin: 0 1px; }
 .pagination a { background: #EED; text-decoration: none; }
-.pagination .on { font-weight: bold; background: #222; color: #fff; }
+.pagination .on { font-weight: bold; background: #222; color: #ffffff; }
 .pagination .sep { display: none; }
 
 /* Listes d'articles et extraits introductifs */
@@ -153,10 +153,10 @@ ul.choix_mots li label { display: inline; font-weight: normal; }
 
 /* Hyperliens
 ---------------------------------------------- */
-a { color: #900; text-decoration: none; }
+a { color: #990000; text-decoration: none; }
 a:focus,
 a:hover,
-a:active { background-color: #900; color: #FFF; text-decoration: none; }
+a:active { background-color: #990000; color: #FFFFFF; text-decoration: none; }
 
 /* ------------------------------------------
 /* Autres medias
@@ -172,7 +172,7 @@ a:active { background-color: #900; color: #FFF; text-decoration: none; }
 .formulaire_spip { display: none; }
 
 /* Souligner et expliciter les liens */
-a { color: #600; text-decoration: underline !important; }
+a { color: #660000; text-decoration: underline !important; }
 a.spip_out:after,
 a.spip_glossaire:after,
 a.spip_mail:after { display: inline; content: " [" attr(href) "]"; }

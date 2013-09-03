@@ -33,9 +33,9 @@ blockquote.spip { min-height: 40px; background: url(img/quote.png) no-repeat; }
 
 /* Enluminures typo V3 / Cf.: http://www.spip-contrib.net/3118 */
 .sc { font-variant: small-caps; }
-.caractencadre-spip { background-color: #FFFFCC; color: purple; }
-.caractencadre2-spip { background-color: #FFFFCC; color: orange; }
-.texteencadre-spip { display: block; margin: 1.5em 50px; padding: 1.5em; background: #EEE; }
+.caractencadre-spip { background-color: #FFFFCC; color: #990000; }
+.caractencadre2-spip { background-color: #FFFFCC; color: #ff9933; }
+.texteencadre-spip { display: block; margin: 1.5em 50px; padding: 1.5em; background: #0E0E0E; }
 
 /* Logos, documents et images */
 .spip_logos { float: left; margin: 0 10px 10px 0; padding: 0; border: none; }
@@ -78,13 +78,13 @@ fieldset.previsu legend { color: #F57900; }
 .reponse_formulaire_ok a { color: #264409; }
 .reponse_formulaire_erreur a { color: #8a1f11; }
 
-.erreur_message { color: red; }
+.erreur_message { color: #FF0000; }
 
 li.erreur input[type="text"], li.erreur input.text,
 li.erreur input[type="password"], li.erreur input.password,
 li.erreur textarea { background-color: #fbe3e4; border-color: #fbc2c4; }
 
-.spip_surligne { background-color: yellow; }
+.spip_surligne { background-color: #ffff00; }
 
 /* Formulaire de recherche */
 .formulaire_recherche * { display: inline; }

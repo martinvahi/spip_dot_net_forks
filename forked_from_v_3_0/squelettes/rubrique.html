@@ -32,8 +32,9 @@
 				<h1 class="#EDIT{titre}">[(#LOGO_RUBRIQUE|image_reduire{40,*}) ]#TITRE</h1>
 			</div>
 	
-			[<div class="#EDIT{texte} texte">(#TEXTE)</div>]
-	
+			<!-- [<div class="#EDIT{texte} texte">(#TEXTE)</div>] -->
+            [<div class="#EDIT{texte} texte surlignable">(#TEXTE|image_reduire{1024,600})</div>]
+
 			[(#REM) Articles de la rubrique ]
 			<B_articles>
 			<div class="menu menu_articles">
@@ -42,7 +43,7 @@
 					<BOUCLE_articles(ARTICLES) {id_rubrique} {!par date} {pagination}>
 					<li>
 						<strong><a href="#URL_ARTICLE">[(#LOGO_ARTICLE_RUBRIQUE|image_reduire{40,*}) ]#TITRE</a></strong>
-						<br /><small>[(#DATE|affdate_jourcourt)][, <:par_auteur:> (#LESAUTEURS|supprimer_tags)]</small>
+						<br /><!-- small>[(#DATE|affdate_jourcourt)][, <:par_auteur:> (#LESAUTEURS|supprimer_tags)]</small -->
 					</li>
 					</BOUCLE_articles>
 				</ul>
@@ -53,7 +54,7 @@
 			[(#REM) Si aucun article, affiche un plan de la rubrique ]
 			<B_sous_rubriques>
 			<div class="menu menu_rubriques">
-				<h2><:sous_rubriques:></h2>
+				<!-- h2><:sous_rubriques:></h2 -->
 				<ul class="spip">
 					<BOUCLE_sous_rubriques(RUBRIQUES) {id_parent} {par num titre}{!par date}>
 					<li>
