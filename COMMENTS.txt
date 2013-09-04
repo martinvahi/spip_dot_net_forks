@@ -16,5 +16,8 @@ that has been translated from the English versions:
     ./forked_from_v_3_0/ecrire/lang/public_en.php
     ./forked_from_v_3_0/ecrire/lang/spip_en.php
 
+Flaw-tracking system of this fork resides at 
+http://www.softf1.com/cgi-bin/tree1/technology/flaws/spip.bash/
+
 
 ===========================================================================
